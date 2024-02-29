@@ -1,0 +1,11 @@
+.gallery-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05); 
+}
