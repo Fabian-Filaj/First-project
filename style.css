@@ -1,4 +1,3 @@
-
 .hero-banner {
     background-image: url("./img/banner.jpg");
     background-size: cover;
@@ -8,6 +7,7 @@
     justify-content: center;
     flex-direction: column;
 }
+
 /* Featured Speakers */
 .card {
     transition: transform 0.3s, box-shadow 0.3s;
@@ -21,6 +21,7 @@
 .card:hover .card-body {
     color: rgb(20, 110, 206);
 }
+
 /* What People Are Saying Section */
 .quote {
     border-left: 5px solid rgb(20, 110, 206);
@@ -28,28 +29,31 @@
     padding: 1rem;
     margin-bottom: 1rem;
 }
+
 /* Event Preview Responsiveness */
 @media (min-width: 768px) {
     .embed-responsive iframe {
-      width: 60%;
-      height: 400px;
+        width: 60%;
+        height: 400px;
     }
-  }
-  
-  @media (max-width: 767px) {
+}
+
+@media (max-width: 767px) {
     .embed-responsive iframe {
-      width: 100%;
-      height: 200px;
+        width: 100%;
+        height: 200px;
     }
-  }
+}
+
 /* Countdown */
 .timer {
     margin: 0 1rem;
-    animation: pulse 2s infinite; /* Adjust the duration as needed */
+    animation: pulse 2s infinite;
+    /* Adjust the duration as needed */
 }
 
 .timer-bg-light {
-    background-color: #c3e0f2	;
+    background-color: #c3e0f2;
     padding: 8px;
     border-radius: 5px;
 }
@@ -58,14 +62,18 @@
     0% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.1);
     }
+
     100% {
         transform: scale(1);
     }
 }
+
 /* Social Media links color */
-.social-link, .quick-link {
+.social-link,
+.quick-link {
     color: rgb(11, 116, 229);
-  }
+}
