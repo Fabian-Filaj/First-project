@@ -71,9 +71,3 @@
         transform: scale(1);
     }
 }
-
-/* Social Media links color */
-.social-link,
-.quick-link {
-    color: rgb(11, 116, 229);
-}
