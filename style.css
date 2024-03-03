@@ -30,6 +30,11 @@
     margin-bottom: 1rem;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .quote {
+        height: 40vh;
+    }
+}
 /* Event Preview Responsiveness */
 @media (min-width: 768px) {
     .embed-responsive iframe {
